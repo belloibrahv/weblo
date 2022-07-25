@@ -18,8 +18,8 @@ const Register = () =>  {
   }
 
   return (
-    <div className='container'>
-      <form onSubmit={submitForm}>
+    <div className='form__page'>
+      <form onSubmit={submitForm} className='form__container'>
         <input name="email" placeholder='email' value={formData.email} onChange={handleFormData} />
         <input name="username" placeholder='username' value={formData.username} onChange={handleFormData} />
         <input type="password" name="password" placeholder='password' value={formData.password} onChange={handleFormData} />

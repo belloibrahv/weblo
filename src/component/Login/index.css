@@ -1,0 +1,35 @@
+.form__header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form__page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  background: #f1f1f1;
+  padding: 10%;
+  box-shadow: 2px 2px 5px #ccc;
+  border-radius: 5px;
+}
+
+.form__container input {
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+}
+
+.form__container button {
+  padding: 5px;
+  min-width: 100%;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  cursor: pointer;
+}
