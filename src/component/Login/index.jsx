@@ -56,7 +56,6 @@ const Login = ({ loginHandler  }) =>  {
           <Link to="/register" style={{
           textDecoration: 'none',
           textAlign: 'center',
-          margin: '0 auto',
           color: '#000',
         }}>register</Link>
         </div>
