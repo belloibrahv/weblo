@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useForm } from '../../hooks/useForm' 
 
 const initialFormData = {
@@ -20,10 +21,16 @@ const Register = () =>  {
   return (
     <div className='form__page'>
       <form onSubmit={submitForm} className='form__container'>
+         <div className='form__header'>register account</div>
         <input name="email" placeholder='email' value={formData.email} onChange={handleFormData} />
         <input name="username" placeholder='username' value={formData.username} onChange={handleFormData} />
         <input type="password" name="password" placeholder='password' value={formData.password} onChange={handleFormData} />
-        <button type='submit'>log in</button>
+        <button type='submit'>submit</button>
+        <Link to="/login" style={{
+          textDecoration: 'none',
+          textAlign: 'center',
+          color: '#000',
+        }}>log in</Link>
       </form>
     </div>
   )

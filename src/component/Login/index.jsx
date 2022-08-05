@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useForm } from '../../hooks/useForm' 
 import './index.css'
 
@@ -51,6 +52,14 @@ const Login = ({ loginHandler  }) =>  {
         <input name="username" placeholder='username' value={formData.username} onChange={handleFormData} />
         <input type="password" name="password" placeholder='password' value={formData.password} onChange={handleFormData} />
         <button type='submit'>log in</button>
+        <div>
+          <Link to="/register" style={{
+          textDecoration: 'none',
+          textAlign: 'center',
+          margin: '0 auto',
+          color: '#000',
+        }}>register</Link>
+        </div>
       </form>
     </div>
   )
