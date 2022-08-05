@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/weblo/static/css/main.755933c6.css",
+    "main.js": "/weblo/static/js/main.cf32b4ff.js",
+    "index.html": "/weblo/index.html",
+    "main.755933c6.css.map": "/weblo/static/css/main.755933c6.css.map",
+    "main.cf32b4ff.js.map": "/weblo/static/js/main.cf32b4ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.755933c6.css",
+    "static/js/main.cf32b4ff.js"
+  ]
+}
